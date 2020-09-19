@@ -1,5 +1,6 @@
 # AWS
 
+```
 #!/bin/bash
 yum update -y
 localectl set-locale LANG=ja_JP.utf8
@@ -21,3 +22,4 @@ systemctl stop packagekit
 systemctl mask packagekit
 systemctl start xrdp
 systemctl enable xrdp
+```
